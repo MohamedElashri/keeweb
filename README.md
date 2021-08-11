@@ -43,3 +43,6 @@ KeeWeb      | 87 | When using `docker run`, visit `http://localhost:87` in your 
 Volume          | Description
 ----------------|-------------
 `/usr/share/nginx/html/config.json` | The location of the optional config of KeeWeb.
+
+### Credit 
+This work is based on [SvenC56/docker-keeweb](https://github.com/SvenC56/docker-keeweb)
