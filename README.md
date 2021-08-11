@@ -1,3 +1,5 @@
+[![Build Image & Push to Dockerhub](https://github.com/MohamedElashri/keeweb/actions/workflows/docker_image.yml/badge.svg)](https://github.com/MohamedElashri/keeweb/actions/workflows/docker_image.yml)
+
 # keeweb
 My docker image for keeweb password manager
 
