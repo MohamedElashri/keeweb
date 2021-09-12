@@ -46,5 +46,21 @@ Volume          | Description
 ----------------|-------------
 `/usr/share/nginx/html/config.json` | The location of the optional config of KeeWeb.
 
+### WebDAV
+
+There is a version which supports WebDAV in [WebDAV](https://github.com/MohamedElashri/keeweb/tree/main/Webdav) folder
+
+First, start KeeWeb (`/my/vault-files` must contain the vault file):
+```bash
+docker run -d -p 80:80 -e WEBDAV_USERNAME=webdav -e WEBDAV_PASSWORD=secret -v /my/vault-files:/usr/share/nginx/html/webdav melashri/keeweb:weddav
+```
+
+Then, go to KeeWeb through your browser, click on `More`, click on `WebDAV` and enter your configuration:
+```
+URL: https://example.com/webdav/filenanme.kdbx
+Username: webdav
+Password: secret
+
+
 ### Credit 
 This work is based on [SvenC56/docker-keeweb](https://github.com/SvenC56/docker-keeweb)
