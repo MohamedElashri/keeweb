@@ -20,7 +20,7 @@ Pull `melashri/keeweb` from the Docker repository:
     docker pull melashri/keeweb
 
 
-Or build `svenc56/keeweb` from source:
+Or build `melashri/keeweb` from source:
 
     git clone https://github.com/MohamedElashri/keeweb.git
     cd dockerfile
