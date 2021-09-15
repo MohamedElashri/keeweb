@@ -56,11 +56,12 @@ docker run -d -p 80:80 -e WEBDAV_USERNAME=webdav -e WEBDAV_PASSWORD=secret -v /m
 ```
 
 Then, go to KeeWeb through your browser, click on `More`, click on `WebDAV` and enter your configuration:
-```
+
+```bash
 URL: https://example.com/webdav/filenanme.kdbx
 Username: webdav
 Password: secret
-
+```
 
 ### Credit 
 This work is based on [SvenC56/docker-keeweb](https://github.com/SvenC56/docker-keeweb)
