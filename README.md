@@ -31,14 +31,14 @@ Or build `melashri/keeweb` from source:
 Run the image, binding associated ports, and mounting the present working
 directory:
 
-    docker run -d -p 87:80 melashri/keeweb
+    docker run -d -p 85:80 melashri/keeweb
 
 
 ## Services
 
 Service     | Port | Usage
 ------------|------|------
-KeeWeb      | 87 | When using `docker run`, visit `http://localhost:87` in your browser
+KeeWeb      | 85 | When using `docker run`, visit `http://localhost:85` in your browser
 
 ## Volumes
 
